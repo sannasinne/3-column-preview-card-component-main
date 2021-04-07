@@ -1,3 +1,5 @@
+/* Basic styles */
+
 *, *::before, *::after {
   box-sizing: inherit;
 }
@@ -24,22 +26,61 @@ p {
   color: hsla(0, 0%, 100%, 0.75);
   font-size: 15px;
   font-family: 'Lexend Deca', sans-serif;
+  padding-bottom: 20px;
+}
+
+.attribution {
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+/* Flexbox styles */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .flex-item {
   background: hsl(184, 100%, 22%);
-  padding: 30px;
-  margin: 0 20px 0;
+  padding: 40px;
+  margin: 0 30px 0;
 }
 
 .flex-item:first-child {
   background: hsl(31, 77%, 52%);
   margin-top: 20px;
+  border-radius: 10px 10px 0 0;
 }
 
 .flex-item:last-child {
   background: hsl(179, 100%, 13%);
   margin-bottom: 20px;
+  border-radius: 0 0 10px 10px;
+}
+
+@media screen and (min-width: 800px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .flex-item {
+    margin: 0;
+  }
+
+  .flex-item:first-child {
+    margin-top: 0;
+    border-radius: 10px 0 0 10px;
+  }
+
+  .flex-item:last-child {
+    margin-bottom: 0;
+    border-radius: 0 10px 10px 0;
+  }
 }
 
 /* Button styles */
@@ -81,4 +122,14 @@ button:hover {
 
 .button-3:hover {
   background: hsl(179, 100%, 13%);
+}
+
+.attribution { 
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 11px;
+  text-align: center;
+  padding: 20px 0 20px; 
+}
+.attribution a { 
+  color: hsl(184, 100%, 22%); 
 }
