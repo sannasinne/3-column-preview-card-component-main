@@ -25,7 +25,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/sannasinne/3-column-preview-card-component-main)
-- Live Site URL: [Add live site URL here](https://sannasinne.github.io/3-column-preview-card-component)
+- Live Site URL: [Add live site URL here](https://sannasinne.github.io/3-column-preview-card-component-main/)
 
 ## My process
 
