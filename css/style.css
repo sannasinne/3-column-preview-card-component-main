@@ -9,6 +9,7 @@ html {
 }
 
 body {
+  font-family: 'Lexend Deca', sans-serif;
   background-color: hsl(0, 0%, 95%);
   height: 100vh;
   margin: 0;
@@ -25,7 +26,6 @@ h2 {
 p {
   color: hsla(0, 0%, 100%, 0.75);
   font-size: 15px;
-  font-family: 'Lexend Deca', sans-serif;
   padding-bottom: 20px;
   line-height: 1.6;
 }
@@ -77,7 +77,7 @@ p {
   
   .flex-item {
     margin: 0;
-    flex: 1 1 100px;
+    /* flex: 1 1 100px; */
   }
 
   .flex-item:first-child {
@@ -96,11 +96,11 @@ p {
 /* Button styles */
 
 button {
+  font-size: 14px;
   font-family: 'Lexend Deca', sans-serif;
-  font-size: 15px;
   text-transform: capitalize;
   background: hsl(0, 0%, 100%);
-  border: none;
+  border: 1px solid white;
   padding: 12px 30px 12px;
   border-radius: 20px;
 }
@@ -137,7 +137,6 @@ button:hover {
 /* Attribution styles */
 
 .attribution { 
-  font-family: 'Lexend Deca', sans-serif;
   font-size: 11px;
   text-align: center;
   padding: 20px 0 20px; 
