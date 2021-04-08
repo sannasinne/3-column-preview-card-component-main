@@ -30,10 +30,6 @@ p {
   line-height: 1.6;
 }
 
-.attribution {
-  font-family: 'Lexend Deca', sans-serif;
-}
-
 @media screen and (min-width: 940px) {
   p {
     padding-bottom: 80px;
@@ -53,6 +49,7 @@ p {
   background: hsl(184, 100%, 22%);
   padding: 40px;
   margin: 0 30px 0;
+  max-width: 300px;
 }
 
 .flex-item:first-child {
@@ -86,13 +83,13 @@ p {
   .flex-item:first-child {
     margin-top: 0;
     border-radius: 10px 0 0 10px;
-    /* margin-left: 15vw; */
+    margin-left: 15vw;
   }
 
   .flex-item:last-child {
     margin-bottom: 0;
     border-radius: 0 10px 10px 0;
-    /* margin-right: 15vw; */
+    margin-right: 15vw;
   }
 }
 
@@ -136,6 +133,8 @@ button:hover {
 .button-3:hover {
   background: hsl(179, 100%, 13%);
 }
+
+/* Attribution styles */
 
 .attribution { 
   font-family: 'Lexend Deca', sans-serif;
